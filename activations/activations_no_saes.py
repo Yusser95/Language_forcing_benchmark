@@ -21,11 +21,6 @@ lang = sys.argv[2]
 save = model_name.split("/")[-1]
 
 
-compnent_id = 1
-factor = 8
-
-
-
 ids = t.load(f'force_benchmark/data/{save}/id.{lang}.train.{save}')
 
 print("ids:",ids.shape)
