@@ -14,7 +14,7 @@ import sys
 model_name = sys.argv[1]
 lang = sys.argv[2]
 save = model_name.split("/")[-1]
-path_to_saes = f"/pfss/mlde/workspaces/mlde_wsp_P_DFKI_Darmstadt/ya98xoke/multi_low_res_cache/{save}/models"
+path_to_saes = f"{save}/models"
 
 
 compnent_id = 1
